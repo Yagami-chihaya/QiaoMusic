@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册页面</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        
+        body{
+            background: url(./resource/backgroundpic.png) no-repeat 0 0;
+            background-size:1600px 900px;
+            
+            
+            
+        }
+        #page{
+            
+        }
+        #sign_up{
+            background-color: white;
+            width: 500px;
+            height: 600px;
+            margin: -100px auto;
+            border: none;
+            border-radius: 5px;
+            opacity: 0.6;   
+            position: relative;
+            
+        }
+        #sign_up:hover{
+            opacity: 0.8;
+            
+        }
+        #sign_up>ul{
+            list-style: none;
+            top: 80px;
+            position: relative;
+            
+        }
+        #sign_up>h2{
+            display: block;
+            width: 100px;
+            position: absolute;
+            left: 200px;
+            top: 20px;
+            text-align: center;
+            font-family: fantasy;
+            font-weight: bold;
+            font-size: 30px;
+        }
+
+        #sign_up li{
+            
+            margin-top: 30px;
+            line-height: 42px;
+            height: 50px;
+            float: right;
+        }
+        #sign_up li>input{
+            
+            
+            float: right;
+            margin-right: 125px;
+            width: 250px;
+            height: 40px;
+            background-color: white;
+            border: 1px solid grey;
+            border-radius: 5px;
+        }
+        #sign_up_btn{
+            position: relative;
+            top: 120px;
+            left: 175px;
+            width: 150px;
+            height: 60px;
+            text-align: center;
+            border-radius: 20px;
+            border: none;
+            line-height: 60px;
+            font-weight: bold;
+            font-size: 40px;
+            color: white;
+            background-color: turquoise;
+            opacity: 0.8;
+        }
+        #sign_up_btn:hover{
+            opacity: 1;
+        }
+        #isCorrect{
+            
+            position: absolute;
+            right: 100px;
+            display: none;
+            font-size: 10px;
+        }   
+        .correct{
+            color: green;
+            display: inline-block !important;
+        }
+        .error{
+            color: red;
+            display: inline-block !important;
+        }
+		a{
+			font-size:30px
+			}
+		
+    </style>
+    
+</head>
+<body>
+    <div id="page">
+        <div id="sign_up">
+            <h2>Sign Up</h2>
+            <ul>
+                <li class="username">昵称:<input type="text" placeholder="请输入用户名(2到8个中文字符)"><span id='isCorrect' class="correct"></span></li>
+                <li class="password">密码:<input type="text" placeholder="输入密码(由字母和数字组合)"><span id='isCorrect' class="correct"></span></li>
+                <li class="password_confirm">再次输入密码:<input type="text" placeholder="再次输入密码"><span id='isCorrect' class="correct"></span></li>
+                <li class="phone_number">手机号:<input type="text" placeholder="输入你的手机号"><span id='isCorrect' class="correct"></span></li>
+            </ul>
+            <button type="button" id="sign_up_btn">注册</button>
+        </div>
+		<a href='https://www.baidu.com/'>点击跳转</a>
+    </div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./index.js"></script>
+    
+</body>
+</html>
