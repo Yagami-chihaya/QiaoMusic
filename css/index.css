@@ -1,0 +1,500 @@
+*{
+    padding: 0;
+    margin: 0;
+    user-select: none;
+}
+.header{
+    width: 100%;
+    height: 45px;
+    
+}
+.header>span{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+   
+    margin-top: -25px;
+    margin-left: 20px;
+    
+}
+
+.header>span>a{
+    display: inline-block;
+    width: 120px;
+    height: 75px;
+    background:url(../imgs/logo.png) no-repeat 0 0;
+    background-size: 120px 40px;
+    margin-top: 26px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.header>span>a:hover{
+    opacity: 1;
+}
+.header>ul{
+    float: right;
+    list-style: none;
+}
+.header>ul>.login{
+    color: white;
+    float: left;
+    margin-right: 20px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 45px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.header>ul>.login:hover{
+    opacity: 1;
+}
+.header>ul>.set{
+    color: white;
+    float: left;
+    margin-right: 20px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 45px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.header>ul>.set:hover{
+    opacity: 1;
+}
+.content{
+    width: 100%;
+    height: 600px;
+    
+}
+.content>.content_in{
+    width: 1340px;
+    height: 100%;
+    
+    margin: 0 auto;
+}
+.content>.content_in>.content_in_left{
+    width: 800px;
+    height: 100%;
+    
+    float: left;
+}
+.content_tools{
+    list-style: none;
+    
+}
+.content_tools>li{
+    display: inline-block;
+    width: 122px;
+    height: 40px;
+    
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    opacity: 0.5;
+    cursor: pointer;
+    border: 1px solid white;
+}
+.content_tools>li>img{
+    vertical-align: -3px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+.content_tools>li:hover{
+    opacity: 1;
+}
+.content_list{
+    height: 556px;
+}
+.content_list ul{
+    list-style: none;
+    
+}
+.content_list ul>li{
+
+    height: 50px;
+    border-bottom: 0px solid rgba(255, 255, 255, 0.5);
+    user-select: none;
+}
+.content_list ul>li>div{
+    float: left;
+    line-height: 50px;
+    color: white;
+    opacity: 0.5;
+}
+.content_list ul>li>.check{
+    width: 50px;
+    height: 100%;
+
+    text-align: center;
+}
+.content_list ul>li>.checked{
+    background: url(../imgs/√.png) no-repeat 17px 17px;
+    opacity: 1 !important;
+}
+.content_list ul>li>.check>span{
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border: 1px solid white;
+
+}
+.content_list ul>li>.number{
+    width: 20px;
+    height: 100%;
+
+}
+.content_list ul>li>.number2{
+    color:transparent;
+    background: url(../imgs/wave.gif) no-repeat 0 20px;
+}
+.content_list ul>li>.name{
+    width: 50%;
+    height: 100%;
+
+}
+.content_list ul>li>.name:hover{
+    opacity: 1 !important;
+}
+.content_list ul>li>.singer{
+    width: 20%;
+    height: 100%;
+
+}
+.content_list ul>li>.singer:hover{
+    opacity: 1 !important;
+}
+.content_list ul>li>.time{
+
+    height: 100%;
+
+}
+.content_list ul>li>.time:hover{
+    opacity: 1 !important;
+}
+.list_menu{
+    display: inline-block;
+    float: right;
+    display: none;
+}
+.list_menu a{
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    margin-top: 7px;
+    opacity:  1;
+}
+
+.list_menu a:nth-child(1){
+    background-image: url(../imgs/播放.png);
+    background-size: 36px 36px;
+}
+.list_menu a:nth-child(2){
+    background-image: url(../imgs/添加到\ \(2\).png);
+    background-size: 33px 33px;
+    position: relative;
+    top: 1px;
+    left: 1px;
+    background-repeat: no-repeat;
+}
+.list_menu a:nth-child(3){
+    background-image: url(../imgs/下载\ \(2\).png);
+    background-size: 33px 33px;
+    position: relative;
+    top: 1px;
+    left: 1px;
+    background-repeat: no-repeat;
+}
+.list_menu a:nth-child(4){
+    background-image: url(../imgs/分\ 享.png);
+    background-size: 36px 36px;
+}
+
+.list_menu .list_menu_play2{
+    background-image: url(../imgs/暂停.png) !important;
+
+}
+.time>a{
+    display: inline-block;
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+    background-image: url(../imgs/删\ 除\ .png);
+    background-size: 20px 20px;
+    display: none;
+}
+.content>.content_in>.content_in_right{
+    width: 540px;
+    height: 100%;
+    
+    float: right;
+    
+}
+.content_in_right .sing_info{
+    text-align: center;
+}
+.content_in_right .sing_info>a{
+    width: 200px;
+    height: 180px;
+    display: inline-block;
+    text-align: left;
+    background: url(https://y.gtimg.cn/mediastyle/yqq/img/album_cover_player.png?max_age=2592000&v=23ea536d34facedf9ae4169d95b1056e) no-repeat 0 0;
+}
+.content_in_right .sing_info>a>img{
+    width: 180px;
+    height: 180px;
+    
+}
+.content_in_right .sing_info>p{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.content_in_right .sing_info>p>a{
+    text-decoration: none;
+    color:white;
+    opacity: 0.5;
+    line-height: 50px;
+}
+.content_in_right .sing_info>p>a:hover{
+    opacity: 1;
+}
+
+.content_in_right .lyricBorder {
+    text-align: center;
+    height: 150px;
+    margin-top: 45px;
+    overflow: hidden;
+    font-weight: 300;
+}
+
+.content_in_right .sing_lyric{
+    
+    
+}
+.content_in_right .sing_lyric>li{
+    text-align: center;
+    list-style: none;
+    color: white;
+    font-size: 25px;
+    opacity: 0.5;
+    line-height: 40px;
+}
+.content_in_right .sing_lyric .on{
+    color: rgb(51, 255, 0);
+    opacity: 1;
+    
+}
+
+.footer{
+    width: 100%;
+    height: 60px;
+    
+    position: absolute;
+    bottom: 0;
+}
+.footer>.footer_in{
+    width: 1340px;
+    height: 100%;
+    
+    margin: 0 auto;
+}
+.footer>.footer_in>.left_menu{
+    display: inline-block;
+    
+}
+.footer>.footer_in>.left_menu>a{
+    display: inline-block;
+    margin-right: 15px;
+    margin-left: 13px;
+}
+.footer>.footer_in>.left_menu>a>img{
+    width: 25px;
+    height: 25px;
+}
+.footer>.footer_in>.left_menu>.playToggle{
+    
+    width: 30px;
+    height: 30px;
+    background: url(../imgs/播放\ \(1\).png);
+    background-size: 30px;
+    
+}
+.footer>.footer_in>.left_menu>.playToggle2{
+    width: 30px;
+    height: 30px;
+    background-image: url(../imgs/暂停.png);
+    background-size: 30px;
+}
+.footer>.footer_in>.middle_menu{
+    display: inline-block;
+    width: 580px;
+    height: 40px;
+    margin-left: 40px;
+    position: relative;
+    top: 7px;
+    
+}
+.footer>.footer_in>.middle_menu>.middle_menu_top{
+    width: 100%;
+    height: 30px;
+    
+    line-height: 30px;
+    font-size: 14px;
+}
+.middle_menu_top>.music_name{
+    float: left;
+    color: rgba(255, 255, 255, 0.493);
+}
+.middle_menu_top>.music_name:hover{
+    color: white;
+}
+.middle_menu_top>.music_time{
+    float: right;
+    color:rgba(255, 255, 255, 0.493);
+}
+.middle_menu_top>.music_time:hover{
+    color: white;
+}
+.bar_inside{
+    width: 100%;
+    height: 4px;
+    background-color: rgba(255, 255, 255, 0.507);
+    margin-top: 2px;
+    position: relative;
+}
+.bar_inside>.bar_outside{
+    
+    height: 100%;
+    background-color: white;
+}
+.bar_inside>.bar_outside>.bar_ball{
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: -4px;
+    
+}
+.footer>.footer_in>.right_menu{
+    display: inline-block;
+    
+    margin-left: 30px;
+}
+.footer>.footer_in>.right_menu>a{
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 13px;
+    margin-top: 5px;
+}
+.footer>.footer_in>.right_menu>.playMode{
+    width: 25px;
+    height: 25px;
+    background: url(../imgs/顺序播放.png);
+    background-size: 25px;
+}
+.footer>.footer_in>.right_menu>.playMode1{
+    width: 25px;
+    height: 25px;
+    background: url(../imgs/随机播放.png);
+    background-size: 25px;
+}
+.footer>.footer_in>.right_menu>a>img{
+    width: 25px;
+    height: 25px;
+}
+.footer>.footer_in>.right_menu>.love_off{
+    width: 25px;
+    height: 25px;
+    background: url(../imgs/喜欢.png);
+    background-size: 25px;
+}
+.footer>.footer_in>.right_menu>.love_on{
+    width: 25px;
+    height: 25px;
+    background: url(../imgs/喜欢\ \(2\).png);
+    background-size: 25px;
+}
+.footer>.footer_in>.right_menu>.switch_off{
+    width: 50px;
+    height: 25px;
+    background: url(../imgs/开关-关.png);
+    background-size: 50px 25px;
+}
+.footer>.footer_in>.right_menu>.switch_on{
+    width: 50px;
+    height: 25px;
+    background: url(../imgs/开关-关.png);
+    background-size: 50px 25px;
+    transform: rotate(180deg);
+}
+.footer>.footer_in>.voiceChange{
+    margin-left: 13px;
+    line-height: 34px;
+    display: inline-block;
+    position: relative;
+}
+.footer>.footer_in>.voiceChange>a{
+    display: inline-block;
+    margin-top: 5px;
+}
+.footer>.footer_in>.voiceChange>a>img{
+    width: 25px;
+    height: 25px;
+}
+.footer>.footer_in>.voiceChange>a>.img1{
+    opacity: 0.3;
+    
+}
+.voice_bar_inside{
+    display: inline-block;
+    margin-bottom: 11px;
+    width: 150px;
+    height: 3px;
+    background-color: rgba(255, 255, 255, 0.493);
+    opacity: 0.5;
+}
+.voice_bar_outside{
+    width: 100px;
+    height: 100%;
+    background-color: white;
+}
+.voice_bar_ball{
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    top: -5px;
+    left: 100px;
+}
+
+.mask_bg{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../imgs/实验图片1.jpg) no-repeat 0 0;
+    background-size:cover;
+    z-index: -2;
+    filter: blur(100px);
+}
+.mask{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: -1;
+    
+}
+._mCS_1 .mCSB_scrollTools .mCSB_dragger_bar{
+    width: 8px;
+}
